@@ -1,10 +1,11 @@
 def findMaxK(nums):
-    temp = min(nums)
     largest = 0
     for i in nums:
-        if i in nums and -i in nums and temp < i:
+        if i in nums and -i in nums and largest < i:
             largest = i
+        else:
+            largest = 0
     return largest
 
 
-print(findMaxK([-1,10,6,7,-7,1]))
+print(findMaxK([-1, 10, 6, 7, -7, 1]))
