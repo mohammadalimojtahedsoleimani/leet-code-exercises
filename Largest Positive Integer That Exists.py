@@ -1,5 +1,6 @@
 def findMaxK(nums):
-    largest = 0
+    largest = max(nums)
+    smallest = min(nums)
     for i in nums:
         if i in nums and -i in nums and largest < i:
             largest = i
