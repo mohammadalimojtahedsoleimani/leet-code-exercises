@@ -1,3 +1,5 @@
+
+# main func
 def maximumHappinessSum(happiness: list, k: int):
     temp = 0
     i = 0
