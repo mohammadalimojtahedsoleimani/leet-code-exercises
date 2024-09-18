@@ -1,3 +1,5 @@
+
+
 def longestPalindrome(s):
     if len(s) == 1:
         return 1
