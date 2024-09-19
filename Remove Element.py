@@ -9,6 +9,8 @@ def removeElement(nums, val):
 
 print(removeElement([0,1,2,2,3,0,4,2], 2))
 
+
+
 # correct version:
 # class Solution:
 #     def removeElement(self, nums: List[int], val: int) -> int:
