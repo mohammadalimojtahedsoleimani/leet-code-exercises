@@ -12,4 +12,6 @@ def maximumHappinessSum(happiness: list, k: int):
     return temp
 
 
+
+
 print(maximumHappinessSum([1, 1, 1, 1], 2))
