@@ -1,3 +1,4 @@
+
 def longest_ideal_string(s, k):
     dp = [0] * 27
     n = len(s)
